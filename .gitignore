@@ -1,3 +1,8 @@
 .idea
 
 branch_counter.txt
+
+boilerplate_darwin_amd64
+boilerplate_linux_arm64
+boilerplate_linux_amd64
+

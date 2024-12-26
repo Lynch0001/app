@@ -68,11 +68,7 @@ def update_branch_counter():
 
 def find_unused_project_name(search_path, project_names):
     """Finds the first project name not already present in the specified paths."""
-    search_paths = []
     for project in project_names:
-        path = search_path[:-2] + "/" + project
-        search_paths.append(path)
-
         print(f"checking {search_path} for unused projects")
         resolved_paths = glob.glob(search_path) # list of used projects
         print(f"resolved paths {resolved_paths}")
